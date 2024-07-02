@@ -7,6 +7,7 @@ on:
       - "v1"
     branches:
       - main
+      - test
 
 env:
   SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
